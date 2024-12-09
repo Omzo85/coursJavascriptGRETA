@@ -1,6 +1,7 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 
 header {
@@ -22,5 +23,25 @@ header {
 
 /* Animation légère pour le scroll */
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:initial;
+}
+
+.contact-info {
+    margin: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.contact-info p {
+    margin: 0;
+}
+
+.progress{
+    margin-top: 15px;
+    height: 30px;
+font-size: 18px;
+text-transform: uppercase;
 }
